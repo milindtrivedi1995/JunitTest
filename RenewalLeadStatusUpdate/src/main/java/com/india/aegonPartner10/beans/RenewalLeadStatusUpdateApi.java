@@ -11,7 +11,7 @@ import io.swagger.model.RenewalLeadStatusUpdateResponse;
 public interface RenewalLeadStatusUpdateApi {
 
 	@POST
-	 //@Path("/transactionId={transactionId}")
+	 //@Path("/transactionId={transactionId
 	 @Path("/")
 	 @Consumes({ "application/json" })
 	 @Produces({ "application/json" })
